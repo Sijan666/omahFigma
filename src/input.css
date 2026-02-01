@@ -47,6 +47,34 @@
 .servicePart{
     @apply py-25
 }
+
+.serviceTagh3{
+    @apply text-[36px] font-Poppins font-semibold text-[#203239] w-133.25 pb-15.5
+}
+
+.services{
+    @apply py-5 pr-4.75 pl-8 rounded-[10px] hover:shadow-custom duration-300 border border-transparent hover:border hover:border-[#EEEDDE]
+}
+
+.serviceInside{
+    @apply relative flex justify-between items-center before:content-[''] before:absolute before:-left-8.5 before:w-1.5 before:h-7 before:bg-[#FF7527] before:rounded-full
+}
+
+.serviceInsideH3{
+    @apply text-[#203239] font-Poppins font-medium text-base
+}
+
+.serviceInsideP{
+    @apply text-[#FF7527] font-Poppins font-medium text-base
+}
+
+.serviceP{
+    @apply text-base font-Poppins text-[#203239]/55 w-58.75 pt-2 pb-12 h-37.5
+}
+
+.serviceBtn{
+    @apply text-[#203239] font-Poppins font-medium text-base cursor-pointer
+}
 /* service part  */
 /* favorit part */
 .favorit{
