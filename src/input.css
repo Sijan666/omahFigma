@@ -8,6 +8,7 @@
 .container{
     @apply w-291.5 mx-auto
 }
+
 .flex{
     @apply flex items-center
 }
@@ -16,10 +17,32 @@
 .header{
     @apply py-12.5 fixed top-0 left-1/2 -translate-x-1/2 w-full
 }
+
 .navLi{
     @apply cursor-pointer font-Poppins text-[#203239] hover:font-semibold duration-300 relative after:content-[''] after:absolute after:-bottom-1 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-0.5 after:bg-[#F6762E] after:transition-all after:duration-400 hover:after:w-[60%]
 }
 /* header part */
+/* banner part */
+.banner{
+    @apply pt-47 pb-30 bg-[#EEEDDE]
+}
+
+.bannerLeftH1{
+    @apply text-[#203239] font-Poppins font-semibold text-[56px] w-194.25 pb-6
+}
+
+.bannerLeftp{
+    @apply text-base font-Poppins text-[#203239]/55 w-137 leading-7.5
+}
+
+.bannerInput{
+    @apply relative px-10 py-6 bg-white text-[#203239]/55 rounded-[15px] w-127 outline-none
+}
+
+.inputBtn{
+    @apply px-9.25 py-6 bg-white text-[#203239]/55 rounded-[15px] cursor-pointer
+}
+/* banner part */
 /* service part  */
 .servicePart{
     @apply py-25
