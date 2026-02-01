@@ -23,3 +23,8 @@
     @apply py-17 bg-[#EEEDDE]
 }
 /* favorit part */
+/* berbagai part */
+.berbagai{
+    @apply py-17
+}
+/* berbagai part */
