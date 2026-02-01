@@ -105,6 +105,22 @@
 .berbagai{
     @apply py-17
 }
+
+.berbagaiTitleh4{
+    @apply font-Poppins text-[#FF7527] font-medium text-base
+}
+
+.berbagaiTitleh3{
+    @apply font-Poppins font-semibold text-[36px] text-[#203239] pt-2
+}
+
+.berbagaiCardh4{
+    @apply pt-4 pb-2 text-[24px] font-medium text-[#203239] font-Poppins
+}
+
+.berbagaiCardp{
+    @apply text-[#203239] text-base font-Poppins leading-7.5 w-89
+}
 /* berbagai part */
 /* contact part */
 .contact{
