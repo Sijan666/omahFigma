@@ -13,6 +13,13 @@
     @apply flex items-center
 }
 
+/* service part  */
 .servicePart{
     @apply py-25
 }
+/* service part  */
+/* favorit part */
+.favorit{
+    @apply py-17 bg-[#EEEDDE]
+}
+/* favorit part */
