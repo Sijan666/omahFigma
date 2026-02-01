@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+    --font-Poppins: "Poppins", sans-serif; 
+}
+
+.container{
+    @apply w-291.5 mx-auto
+}
+
+.flex{
+    @apply flex items-center
+}
