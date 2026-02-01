@@ -80,6 +80,26 @@
 .favorit{
     @apply py-17 bg-[#EEEDDE]
 }
+
+.favoritTitleh4{
+    @apply font-Poppins text-[#FF7527] font-medium text-base
+}
+
+.favoritTitle{
+    @apply font-Poppins font-semibold text-[36px] text-[#203239] pt-2
+}
+
+.favoTexth3{
+    @apply text-[36px] font-Poppins font-semibold text-[#203239] w-126.75
+}
+
+.favoTextp{
+    @apply text-base font-Poppins text-[#203239] w-142.5 pt-6 pb-12 leading-7.5
+}
+
+.favoBtn{
+    @apply px-10.25 py-3.25 text-[#203239] font-Poppins font-semibold text-base rounded-[10px] border-2 border-[#203239] hover:bg-[#203239] duration-300 cursor-pointer hover:text-white
+}
 /* favorit part */
 /* berbagai part */
 .berbagai{
