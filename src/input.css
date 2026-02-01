@@ -28,3 +28,8 @@
     @apply py-17
 }
 /* berbagai part */
+/* contact part */
+.contact{
+    @apply py-12 bg-[#EEEDDE]
+}
+/* contact part */
