@@ -151,4 +151,8 @@
 .footer{
     @apply py-7.75 bg-[#203239]
 }
+
+.footerIcon{
+    @apply text-white cursor-pointer
+}
 /* footer part */
