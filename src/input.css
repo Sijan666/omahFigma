@@ -146,6 +146,10 @@
 .contactBtn{
     @apply text-white text-base font-Poppins font-semibold px-4.5 py-2.5 rounded-[5px] bg-[#203239] cursor-pointer
 }
+
+.contactRightH3{
+    @apply font-Poppins font-semibold text-[36px] text-[#203239]
+}
 /* contact part */
 /* footer part */
 .footer{
