@@ -126,9 +126,29 @@
 .contact{
     @apply py-12 bg-[#EEEDDE]
 }
+
+.contactTitle{
+    @apply font-Poppins font-semibold text-[36px] text-[#203239]
+}
+
+.contactCard{
+    @apply px-10.25 py-6.25 bg-white rounded-[10px]
+}
+
+.contactCardh5{
+    @apply text-base text-[#203239] font-Poppins font-medium
+}
+
+.contactCardp{
+    @apply text-base text-[#203239] font-Poppins pt-2
+}
+
+.contactBtn{
+    @apply text-white text-base font-Poppins font-semibold px-4.5 py-2.5 rounded-[5px] bg-[#203239] cursor-pointer
+}
 /* contact part */
-/* contact part */
+/* footer part */
 .footer{
     @apply py-7.75 bg-[#203239]
 }
-/* contact part */
+/* footer part */
